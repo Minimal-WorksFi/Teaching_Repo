@@ -1,6 +1,6 @@
 # Overview
 
-This focuses on lists and their methods. It should be easy for you hopefully.
+This focuses on lists and their methods. It should be easy for you ho   efully.
 
 ## What is the purpose of lists?
 Lists (or arrays), are a good way to store variables together, as you did in the calculator app. Python lists are also really cool, because they have alot of methods already done. These methods are great because it makes it really easy to program.
@@ -13,7 +13,7 @@ Do you want to sort a list?
 
 ## Learning resources
 
-[List methods](https://pynative.com/python-list-exercise-with-solutions/)
+[List methods](https://www.w3schools.com/python/python_lists_methods.asp)
 
 ## Exercises
 
@@ -59,7 +59,7 @@ list2 = [100, 200, 300, 400]
 Expected output:
 ```python
 10 400
-20 300
+20 300  
 30 200
 40 100
 ```
