@@ -63,4 +63,42 @@ The food variable, exists inside the eat and buy function. The moment the functi
 ### TLDR?
 Scope represents the level of access and importance a variable has, if a variable is global, then it can be accessed from anywhere, but you also can't get rid of it. If a variable is local, then it can only be accessed from inside the function block you are currently in. Think of the project you're working on, what do you think would be the best global variables? What about local?
 
+# File Organization
+Now that you know what scope is, you will be able to use it more effectively, and you will learn how to organise your project in a better fashion. Organizing files is a big aspect of programming.
 
+There is no *right* way to organize files, but there are some common patterns among all organization structures.
+
+## Main
+If you go back, you can see a demo, you can download it for view. It is essential every project has a "main" file and function. It makes it easy for other programmers to read your code, and it makes it easier for you to debug your own code.
+
+The main file has the overall architecture of your project, and it will import most of the functions that it will use from other files.
+
+Below, I have attached a file from the demo:
+
+[Main example](./demo/main.py)
+
+The project itself is a rework of the calculator, so scroll around and maybe you'll learn some new stuff.
+
+### What is the purpose of the if main sequence?
+`if __name__ == "__main__":` triggers only when you run that file specifically. Basically, if you run: 
+
+`py main.py`
+
+it ensures that certain code runs only if the script is executed directly, not when it’s imported as a module. This allows for testing specific functions or code blocks.
+
+This can actually be really useful! You can use it to test the functions before implementing them. [Here is an example](./demo/calculations.py)
+Pretty cool right? Debugging at your leisure.
+
+## Typing in Python
+
+I recommend you pick a writing style for your work from now on. Whenever you will jump from a programming language to another, there's different writing conventions. Annoying, I know. In python, they use the snake_case, below you have all the things you'll ever write in python, and how they're written.
+
+![snake_case](./images/image.webp)
+
+There is no right way to type that would work for all languages, you will have to look up for naming conventions in any future languages will work in.
+In Java right now I am working in camelCase.
+In JavaScript, I used PascalCase.
+
+Live and learn. You won't be perfect, but you can ask chatGPT to check your code for the right formatting, or some other AI.
+
+That would be it. This one was a long one. I hope it helps.
