@@ -71,3 +71,5 @@ This is where Markdown files become really important.
 Markdown files are text files which you use to write readmes, and are basically the documentation apps for programmers. It is genuienly one of the best writing tools you can have and I recommend you use it if you need to condense big information.
 
 This would conclude the course. There's quite a lot more, and some of it you will learn on your own. But hopefully next time you'll be less stuck on designing your project.
+
+PS: MAKE SURE TO EXPLAIN HOW TO USE YOUR APP. IDEALLY IT'S SELF EXPLANATORY, BUT MAKE HELP MENUS/EXPLAIN IN THE README!
