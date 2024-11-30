@@ -179,3 +179,5 @@ class Bus(Vehicle):
     def information(self):
         print(self.vehicle_name, " is driving at", self.speed, " kph. It is currently carrying ", self.current_passenger, "/", self.passenger_capacity)
 ```
+
+If you look here, you will notice that the bus itself also has an information method. When you will run the code, the bus will use the information method of the bus, and not the method from the Vehicle. This concept is extremely useful because you can adjust the methods and variables so they work better for the specific class.
