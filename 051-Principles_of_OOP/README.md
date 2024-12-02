@@ -181,3 +181,30 @@ class Bus(Vehicle):
 ```
 
 If you look here, you will notice that the bus itself also has an information method. When you will run the code, the bus will use the information method of the bus, and not the method from the Vehicle. This concept is extremely useful because you can adjust the methods and variables so they work better for the specific class.
+
+## 5. Association
+Ah, yes. Association. I've been doing it throughout the exercise sets, and you can probably infer what it means.
+Objects can be associated with eachother, wether a class detains an instance of another object, or the objects are allllllll contained in a nice little list or dictionary so you can keep them all nice and tidy. There is more to talk about, but we'll go into it later.
+[This code is here.](./demo/Association.py)
+```python
+    class Human:
+    def __init__(self,name,heart):
+        self.name = name
+        self.__heart = heart
+    def get_heart(self):
+        print(f"{self.name}: Ouch,owie.")
+        return self.__heart
+
+class Heart:
+    def __init__(self,bpm,type_of_heart):
+        self.__bpm = bpm
+        self.__type = type_of_heart
+    def information(self):
+        print(f"Interesting, a heart that can reach up to {self.__bpm} and is {self.__type}")
+
+if __name__ == "__main__":
+    human = Human("George",Heart(200,"Impure"))
+    ritualistic_sacrifice_result = human.get_heart()
+    ritualistic_sacrifice_result.information()
+
+```
